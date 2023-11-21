@@ -6,9 +6,7 @@ from ase.utils import reader
 
 @reader
 def read_ms7_out(fd):
-#    file = open(filename, "r")
     lines = fd.readlines()
-#    file.close()
     
     atoms = Atoms()
     searchmode = False
