@@ -1,5 +1,5 @@
 # ms7parser_ASE
-It is a parser for ASE (Atomic Simulation Environment). It can read the atomic coordinate, lattice parameter (if any), total energy (if any), and forces (if any) from the material studio 7.0 outmol file. 
+It is a parser for ASE (Atomic Simulation Environment). It can read the atomic coordinates, lattice parameter (if any), total energy (if any), and forces (if any) from the material studio 7.0 outmol file. 
 
 How to install:
 1. Copy the ms7out.py to $HOME/.local/lib/python3.X/site-packages/ase/io
