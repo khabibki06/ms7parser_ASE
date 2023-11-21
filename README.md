@@ -11,3 +11,6 @@ How to install:
 
 Note: 
 1. replace python3.X with the python version; It may be different depending on the OS system and ASE installation 
+
+
+Tested in: Centos 9 with Python 3.9
