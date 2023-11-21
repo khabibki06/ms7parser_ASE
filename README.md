@@ -3,8 +3,10 @@ It is a parser for ASE (Atomic Simulation Environment). It can read the atomic c
 
 How to install:
 1. Copy the ms7out.py to $HOME/.local/lib/python3.X/site-packages/ase/io
-2. Edit the $HOME/.local/lib/python3.X/site-packages/ase/io/format.py 
+2. Edit the $HOME/.local/lib/python3.X/site-packages/ase/io/format.py
+
    a. Find "F = define_io_format"
+
    b. Add the ms7-out module, by adding this line after F('xyz', 'XYZ-file', '+F') line
 
    F('ms7-out', 'Material Studio Outmol', '1S', module='ms7out', ext='outmol')
